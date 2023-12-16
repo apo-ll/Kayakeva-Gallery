@@ -1,4 +1,4 @@
-# [Kayakeva Gallery]
+# Kayakeva Gallery
 
 ## Description
 Welcome to [Kayakeva Gallery] – a modern web application built with Next.js 14 and Tailwind CSS, featuring seamless image delivery through Cloudinary's API. This project is designed to optimize performance, responsiveness, and ease of use in web development.
