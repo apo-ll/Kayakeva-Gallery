@@ -6,7 +6,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { Icons } from "@/components/icons";
-import { SmoothScroll } from "@/components/smoot-scroll";
+import Link from "next/link";
 
 export default async function Home() {
   return (
@@ -26,12 +26,9 @@ export default async function Home() {
           variant="secondary"
           className="text-sm duration-300 transition-all ease-in-out hover:opacity-75 w-fit bg-yellow-50 hover:bg-yellow-50/70 mx-auto font-medium uppercase tracking-wide text-gray-500 dark:text-gray-400"
         >
-          <SmoothScroll
-            targetId="#pillows"
-            className=" flex items-center gap-2"
-          >
+          <Link href="/#pillows" className=" flex items-center gap-2">
             🎉 Kayakeva Special Offer. Shop Now! <Icons.right />
-          </SmoothScroll>
+          </Link>
         </Badge>
         <h1 className="text-3xl mb-4 mt-1  mx-auto font-bold tracking-tighter sm:text-5xl md:tracking-tight">
           More You Buy, More You Save! FREE 500 Gift on 6+
@@ -41,10 +38,10 @@ export default async function Home() {
         </p>
         <div className="gap-3 flex flex-row mx-auto">
           <Button className="w-fit">
-            <SmoothScroll targetId="#pillows">Shop Now!</SmoothScroll>
+            <Link href="/#pillows">Shop Now!</Link>
           </Button>
           <Button className="w-fit" variant="outline">
-            <SmoothScroll targetId="#pillows">Craete Account</SmoothScroll>
+            <Link href="/#pillows">Craete Account</Link>
           </Button>
         </div>
       </div>
