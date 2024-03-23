@@ -10,7 +10,7 @@ export default function BlurImage({ image }) {
 
   return (
     <div className="flex flex-col gap-4">
-      <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-7 xl:aspect-h-8">
+      <div className="w-fit overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-7 xl:aspect-h-8">
         <CldImage
           alt=""
           src={image.public_id}

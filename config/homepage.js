@@ -28,7 +28,7 @@ export async function Squares() {
 }
 
 export async function Rectangles() {
-  const cachedData = await redis.get("rectangles");
+  const cachedData = await redis.get("rectangle");
   if (cachedData) {
     return cachedData;
   }
@@ -39,13 +39,13 @@ export async function Rectangles() {
     max_results: 500, // Adjust if needed
   });
 
-  await redis.set("rectangles", result);
+  await redis.set("rectangle", result);
 
   return result;
 }
 
 export async function Squarec() {
-  const cachedData = await redis.get("squarec");
+  const cachedData = await redis.get("squarecs");
   if (cachedData) {
     return cachedData;
   }
@@ -55,7 +55,7 @@ export async function Squarec() {
     prefix: "squarec/", // Folder to search in
     max_results: 500, // Adjust if needed
   });
-  await redis.set("squarec", result);
+  await redis.set("squarecs", result);
 
   return result;
 }
