@@ -6,7 +6,7 @@ import { Badge } from "./ui/badge";
 export default async function SquarecPillows() {
   const images = await Squarec();
   return (
-    <div className="mx-auto max-w-2xl py-8 px-4 sm:py-12 sm:px-6 lg:max-w-7xl lg:px-8">
+    <div className="">
       <Badge
         variant="outline"
         className="text-xl w-fit  flex items-center gap-2 mb-10 mx-auto"
