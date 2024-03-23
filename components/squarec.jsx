@@ -9,7 +9,7 @@ export default async function SquarecPillows() {
     <div className="mx-auto max-w-2xl py-4 px-4 sm:py-12 sm:px-6 lg:max-w-7xl lg:px-8">
       <Badge
         variant="outline"
-        className="text-xl w-fit  flex items-center gap-2 mb-10 mx-auto"
+        className="text-sm w-fit  flex items-center gap-2 mb-10 mx-auto"
       >
         Pillows <Icons.chevron /> S & Q Pillows <Icons.chevron /> Color Splash
       </Badge>

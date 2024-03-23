@@ -21,7 +21,7 @@ export default async function Home() {
         />
       </div>
 
-      <div className="flex flex-col gap-2 text-center mx-auto lg:mt-16 mt-10 mb-12">
+      <div className="flex flex-col gap-2 text-center mx-auto lg:mt-16 mt-10 mb-12 px-3">
         <Badge
           variant="secondary"
           className="text-sm duration-300 transition-all ease-in-out hover:opacity-75 w-fit bg-yellow-50 hover:bg-yellow-50/70 mx-auto font-medium uppercase tracking-wide text-gray-500 dark:text-gray-400"
@@ -46,7 +46,7 @@ export default async function Home() {
         </div>
       </div>
 
-      <Tabs id="pillows" defaultValue="Squares" className="">
+      <Tabs id="pillows" defaultValue="Squares" className="px-2">
         <TabsList className="flex  md:gap-8 w-fit mx-auto ">
           <TabsTrigger value="Squares">Square Pillows</TabsTrigger>
           <TabsTrigger value="Rectangles">Rectangle Pillows</TabsTrigger>
