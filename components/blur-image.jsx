@@ -26,11 +26,6 @@ export default function BlurImage({ image }) {
           onLoadingComplete={() => setLoading(false)}
         />
       </div>
-      <h1 className="flex items-center gap-2 font-medium">
-        <span className="line-through">Ksh 600</span>
-        <Icons.right />
-        Ksh 500
-      </h1>
     </div>
   );
 }
