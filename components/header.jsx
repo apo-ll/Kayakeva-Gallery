@@ -23,14 +23,14 @@ export function Header() {
           <span className="text-red-200">Offer!! Offer!! </span>
           Buy 6+ items, Get a Surprise Gift!
         </h1>
-        <div className="flex flex-col gap-3 *:lg:text-4xl *:text-2xl">
+        <div className="flex flex-col gap-3 *:lg:text-4xl *:text-xl">
           <p className=" flex flex-row gap-3 items-center  text-gray-100 ">
             <span>Cover only</span> → <span className="line-through">600</span>{" "}
             <span> Now 500/=</span>
           </p>
           <p className=" flex flex-row gap-3 items-center  text-gray-100 ">
             <span className="w-fit">Cover + Insert</span>→{" "}
-            <span className="line-through text-2xl">
+            <span className="line-through ">
               1200 <span> Now 1000/=</span>
             </span>
           </p>
