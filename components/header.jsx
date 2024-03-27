@@ -30,9 +30,8 @@ export function Header() {
           </p>
           <p className=" flex flex-row gap-3 items-center  text-gray-100 ">
             <span className="w-fit">Cover + Insert</span>→{" "}
-            <span className="line-through ">
-              1200 <span> Now 1000/=</span>
-            </span>
+            <span className="line-through ">1200</span>
+            <span> Now 1000/=</span>
           </p>
         </div>
       </div>
