@@ -50,11 +50,13 @@ export function Header() {
           </div>
           <div className="flex flex-col lg:items-center sm:items-start pt-3 items-start gap-1 text-center lg:text-2xl sm:text-xl text-xl pr-5">
             <div className="flex flex-row gap-2">
-              <h3 className="underline font-semibold">PAYBILL:</h3>
+              <h3 className=" font-semibold text-yellow-300">PAYBILL:</h3>
               <h4 className="lg:text-3xl"> 247247</h4>
             </div>
             <div className="flex flex-row gap-2">
-              <h4 className="underline font-semibold">Till/ Account No : </h4>
+              <h4 className=" font-semibold text-yellow-300">
+                Till/ Account No :{" "}
+              </h4>
               <h3 className="lg:text-3xl">260444</h3>
             </div>
           </div>
