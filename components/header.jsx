@@ -17,7 +17,7 @@ export function Header() {
           width={182}
           height={90}
           alt="logo"
-          className="lg:w-full sm:w-1/3 w-1/3"
+          className="lg:w-full md:w-3/12 sm:w-1/3 w-1/3"
         />
         <h1 className="lg:text-6xl md:text-5xl sm:text-4xl text-4xl text-balance lg:w-2/3  ">
           <span className="text-yellow-300 font-semibold">
@@ -26,7 +26,7 @@ export function Header() {
           Buy 6+ items, Get a Surprise Gift!
         </h1>
         <div className="flex lg:flex-row sm:flex-col md:flex-col flex-col lg:justify-between">
-          <div className="flex flex-col gap-3 *:lg:text-4xl *:text-xl">
+          <div className="flex flex-col gap-3 *:lg:text-4xl *:md:text-2xl *:text-[18px]">
             <p className=" flex flex-row gap-3 items-center  text-gray-100 ">
               <span>Cover only</span> →{" "}
               <span className="line-through flex items-center">
