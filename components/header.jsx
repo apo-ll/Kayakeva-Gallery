@@ -3,7 +3,7 @@ import { Icons } from "./icons";
 
 export function Header() {
   return (
-    <div className=" overflow-hidden relative items-center  rounded-[20px] lg:h-[500px] h-[580px] w-full">
+    <div className=" overflow-hidden relative items-center  rounded-[20px] lg:h-[500px] h-[600px] w-full">
       <Image
         src="/header.jpg"
         fill
@@ -19,7 +19,7 @@ export function Header() {
           alt="logo"
           className=""
         />
-        <h1 className="lg:text-6xl md:text-5xl text-[40px] text-balance lg:w-2/3  ">
+        <h1 className="lg:text-6xl md:text-5xl text-[45px] text-balance lg:w-2/3  ">
           <span className="text-yellow-300 font-semibold">
             Offer!! Offer!!{" "}
           </span>
@@ -30,7 +30,7 @@ export function Header() {
             <p className=" flex flex-row gap-3 items-center  text-gray-100 ">
               <span>Cover only</span> →{" "}
               <span className="line-through flex items-center">
-                600 <span className="text-sm">KES</span>
+                600 <span className="lg:text-sm text-xs">KES</span>
               </span>{" "}
               <span>
                 {" "}
