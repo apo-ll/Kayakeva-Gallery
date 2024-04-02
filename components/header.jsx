@@ -63,7 +63,7 @@ export function Header() {
             </div>
             <h2 className="flex gap-1 lg:text-3xl text-[17px] md:text-xl">
               <span className="text-yellow-300 font-semibold">
-                Contact if you want to order:
+                To Order, Contact:
               </span>
               0711990445
             </h2>
