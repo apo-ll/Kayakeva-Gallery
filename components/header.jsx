@@ -3,7 +3,7 @@ import { Icons } from "./icons";
 
 export function Header() {
   return (
-    <div className=" overflow-hidden relative items-center  rounded-[20px] lg:h-[500px] sm:h-[530px] h-[520px] w-full">
+    <div className=" overflow-hidden relative items-center  rounded-[20px] lg:h-[520px] sm:h-[530px] h-[520px] w-full">
       <Image
         src="/header.jpg"
         fill
@@ -11,13 +11,13 @@ export function Header() {
         className="object-cover h-full w-full"
       />
 
-      <div className="absolute flex py-4 lg:gap-[63px] gap-[55px]  flex-col  top-0 bottom-0 right-0 lg:pl-8 px-1 md:pl-4 left-0 *:text-white p">
+      <div className="absolute flex py-4 lg:gap-[63px] gap-[55px]  flex-col  top-0 bottom-0 right-0 lg:pl-8 px-1 md:pl-4 left-0 *:text-white ">
         <Image
           src="/logo.png"
           width={182}
           height={90}
           alt="logo"
-          className="lg:w-1/12 md:w-3/12 sm:w-1/3 w-1/3"
+          className="lg:w-2/12 md:w-3/12 sm:w-1/3 w-1/3"
         />
         <h1 className="lg:text-6xl md:text-5xl sm:text-4xl text-4xl text-balance lg:w-2/3  ">
           <span className="text-yellow-300 font-semibold">
@@ -25,7 +25,7 @@ export function Header() {
           </span>
           Buy 6+ items, Get a Surprise Gift!
         </h1>
-        <div className="flex lg:flex-row sm:flex-col md:flex-col flex-col lg:justify-between">
+        <div className="flex lg:flex-row sm:flex-col md:flex-col flex-col lg:justify-between lg:items-end">
           <div className="flex flex-col gap-3 *:lg:text-4xl *:md:text-2xl *:text-[18px] mb-2">
             <p className=" flex flex-row gap-3 items-center  text-gray-100 ">
               <span>Cover only</span> →{" "}
