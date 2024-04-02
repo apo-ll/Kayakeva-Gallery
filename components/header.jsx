@@ -3,7 +3,7 @@ import { Icons } from "./icons";
 
 export function Header() {
   return (
-    <div className=" overflow-hidden relative items-center  rounded-[20px] lg:h-[500px] h-[565px] w-full">
+    <div className=" overflow-hidden relative items-center  rounded-[20px] lg:h-[500px] h-[580px] w-full">
       <Image
         src="/header.jpg"
         fill
