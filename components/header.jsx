@@ -3,11 +3,11 @@ import { Icons } from "./icons";
 
 export function Header() {
   return (
-    <div className=" overflow-hidden relative items-center  rounded-[20px] lg:h-[500px] h-[600px] w-full">
+    <div className=" overflow-hidden relative items-center  rounded-[20px] lg:h-[500px] sm:h-[580px] h-[580px] w-full">
       <Image
         src="/header.jpg"
         fill
-        alt="hedaer"
+        alt="header"
         className="object-cover h-full w-full"
       />
 
@@ -17,9 +17,9 @@ export function Header() {
           width={182}
           height={90}
           alt="logo"
-          className=""
+          className="lg:w-full sm:w-1/3 w-1/3"
         />
-        <h1 className="lg:text-6xl md:text-5xl text-[45px] text-balance lg:w-2/3  ">
+        <h1 className="lg:text-6xl md:text-5xl sm:text-4xl text-4xl text-balance lg:w-2/3  ">
           <span className="text-yellow-300 font-semibold">
             Offer!! Offer!!{" "}
           </span>
@@ -48,14 +48,14 @@ export function Header() {
               </span>
             </p>
           </div>
-          <div className="flex flex-col lg:items-center sm:items-start pt-3 items-start gap-1 text-center text-2xl pr-5">
+          <div className="flex flex-col lg:items-center sm:items-start pt-3 items-start gap-1 text-center lg:text-2xl sm:text-xl text-xl pr-5">
             <div className="flex flex-row gap-2">
               <h3 className="underline font-semibold">PAYBILL:</h3>
-              <h4 className="text-3xl"> 247247</h4>
+              <h4 className="lg:text-3xl"> 247247</h4>
             </div>
             <div className="flex flex-row gap-2">
-              <h4 className="underline font-semibold">Till/ Account No. : </h4>
-              <h3 className="text-3xl">260444</h3>
+              <h4 className="underline font-semibold">Till/ Account No : </h4>
+              <h3 className="lg:text-3xl">260444</h3>
             </div>
           </div>
         </div>
