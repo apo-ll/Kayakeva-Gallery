@@ -1,6 +1,6 @@
 import { redis } from "@/lib/redis";
 
-const cloudinary = require("cloudinary").v2;
+import { v2 as cloudinary } from "cloudinary";
 
 // Configure Cloudinary with credentials
 cloudinary.config({
@@ -56,6 +56,22 @@ export async function Squarec() {
     max_results: 500, // Adjust if needed
   });
   await redis.set("squarecs", result);
+
+  return result;
+}
+
+export async function Combos() {
+  const cachedData = await redis.get("combos");
+  if (cachedData) {
+    return cachedData;
+  }
+
+  const result = await cloudinary.api.resources({
+    type: "upload",
+    prefix: "combos/", // Folder to search in
+    max_results: 500, // Adjust if needed
+  });
+  await redis.set("combos", result);
 
   return result;
 }

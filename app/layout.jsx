@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${urbanist.className} antialiased min-h-screen  mx-auto `}
+        className={`${urbanist.className} antialiased min-h-screen  mx-auto bg-black`}
       >
         {children}
       </body>

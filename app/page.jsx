@@ -16,7 +16,7 @@ export default async function Home() {
         <TabsList className="flex  md:gap-8 w-fit mx-auto ">
           <TabsTrigger value="Squares">Square Pillows</TabsTrigger>
           <TabsTrigger value="Rectangles">Rectangle Pillows</TabsTrigger>
-          <TabsTrigger value="squarec">Pillow Combos</TabsTrigger>
+          <TabsTrigger value="squarec">Combos</TabsTrigger>
         </TabsList>
         <TabsContent value="Squares">
           <SquarePillows />
