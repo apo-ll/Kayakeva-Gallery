@@ -3,7 +3,7 @@ import { Icons } from "./icons";
 
 export function Header() {
   return (
-    <div className=" overflow-hidden relative items-center  rounded-[20px] lg:h-[500px] sm:h-[530px] h-[500px] w-full">
+    <div className=" overflow-hidden relative items-center  rounded-[20px] lg:h-[500px] sm:h-[530px] h-[520px] w-full">
       <Image
         src="/header.jpg"
         fill
@@ -17,7 +17,7 @@ export function Header() {
           width={182}
           height={90}
           alt="logo"
-          className="lg:w-full md:w-3/12 sm:w-1/3 w-1/3"
+          className="lg:w-1/12 md:w-3/12 sm:w-1/3 w-1/3"
         />
         <h1 className="lg:text-6xl md:text-5xl sm:text-4xl text-4xl text-balance lg:w-2/3  ">
           <span className="text-yellow-300 font-semibold">
@@ -48,17 +48,25 @@ export function Header() {
               </span>
             </p>
           </div>
-          <div className="flex flex-col lg:items-center sm:items-start pt-3 items-start gap-1 text-center lg:text-2xl sm:text-xl text-xl pr-5">
+          <div className="flex flex-col lg:items-end sm:items-start pt-3 items-start gap-1  lg:text-2xl sm:text-xl text-xl pr-5">
             <div className="flex flex-row gap-2">
-              <h3 className=" font-semibold text-yellow-300">PAYBILL:</h3>
-              <h4 className="lg:text-3xl"> 247247</h4>
+              <h3 className=" font-semibold text-yellow-300 lg:text-3xl md:text-xl text-[17px]">
+                PAYBILL:
+              </h3>
+              <h4 className="lg:text-3xl md:text-xl  text-[17px]"> 247247</h4>
             </div>
-            <div className="flex flex-row gap-2">
-              <h4 className=" font-semibold text-yellow-300">
-                Till/ Account No :{" "}
+            <div className="flex flex-row gap-2 ">
+              <h4 className=" font-semibold md:text-xl text-yellow-300 lg:text-3xl text-[17px]">
+                Till / Account No :{" "}
               </h4>
-              <h3 className="lg:text-3xl">260444</h3>
+              <h3 className="lg:text-3xl text-[17px] md:text-xl">260444</h3>
             </div>
+            <h2 className="flex gap-1 lg:text-3xl text-[17px] md:text-xl">
+              <span className="text-yellow-300 font-semibold">
+                Contact if you want to order:
+              </span>
+              0711990445
+            </h2>
           </div>
         </div>
       </div>
