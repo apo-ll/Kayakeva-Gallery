@@ -65,7 +65,7 @@ export function Header() {
               <span className="text-yellow-300 font-semibold">
                 To Order, Contact:
               </span>
-              0711990445
+              0712260443
             </h2>
           </div>
         </div>
