@@ -57,7 +57,7 @@ export function Header() {
             </div>
             <div className="flex flex-row gap-2 ">
               <h4 className=" font-semibold md:text-xl text-yellow-300 lg:text-3xl text-[17px]">
-                Till / Account No :{" "}
+                Account No :{" "}
               </h4>
               <h3 className="lg:text-3xl text-[17px] md:text-xl">260444</h3>
             </div>
